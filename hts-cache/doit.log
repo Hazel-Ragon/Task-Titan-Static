@@ -1,0 +1,8 @@
+http://localhost/Task-Titan/ -O "Descargas/Task-Titan" -%v
+File generated automatically on Thu, 26 Sep 2024 10:32:32, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

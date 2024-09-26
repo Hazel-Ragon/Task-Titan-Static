@@ -1,0 +1,87 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@1.0.1/css/bulma.min.css";
+
+.modal-card-foot {
+    justify-content: flex-end;
+}
+
+.modal-card-foot .button:not(:last-child) {
+    margin-right: 10px;
+}
+
+.navbar-item img {
+    max-height: 3rem !important;
+}
+
+.navbar {
+    min-height: 3.0rem;
+}
+
+h1.title {
+    margin-top: 20px;
+    /* Ajusta el valor para espaciar más o menos */
+}
+
+.table .button {
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+/* Asegura que los inputs y botones tengan el mismo tamaño */
+.field.is-grouped .control input,
+.field.is-grouped .control select,
+#aplicarFiltros,
+#nuevoTareaBtn {
+    height: 42px; 
+    font-size: 0.875rem; 
+    padding: 0.5rem;
+    width: 180px; 
+    box-sizing: border-box;
+    gap: 0px; 
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+/* Ajusta el ancho específico para el botón */
+#aplicarFiltros, 
+#nuevoTareaBtn {
+    width: 150px;
+}
+
+/* Alineación y reducción de espacio */
+.filtros-y-boton {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.select select {
+    width: 180px;
+    padding: 0.5rem;
+}
+
+/* Ajuste responsivo para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .filtros-y-boton {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    #aplicarFiltros,
+    #nuevoTareaBtn {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
+/* Ajustes en pantallas grandes */
+@media screen and (min-width: 1024px) {
+    .field.is-grouped {
+        justify-content: flex-start;
+    }
+
+    #nuevoTareaBtn {
+        margin-left: 15px;
+    }
+}

@@ -1,0 +1,28 @@
+/* Ajustar las alertas para que se muestren sobre el nav */
+.notification {
+    position: fixed;
+    top: 0;
+    /* Mostrar arriba */
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    /* Asegurar que está por encima del nav */
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+}
+
+.fade-out {
+    animation: fadeOut 5s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+}
